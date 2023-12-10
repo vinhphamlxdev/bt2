@@ -46,7 +46,11 @@ body {
   line-height: 1;
   font-family: "Poppins", sans-serif;
   background-color: #fff;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  overflow-y: scroll;
 }
+
 .wrapper-layout {
   max-width: 1300px;
   margin: auto;
@@ -103,6 +107,7 @@ body {
   background-repeat: no-repeat;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  position: relative;
 }
 .home-container {
   display: flex;
@@ -112,6 +117,7 @@ body {
   align-items: center;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
+  justify-content: space-between;
 }
 .home-header {
   display: flex;
@@ -589,6 +595,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
+    white-space: wrap;
   }
 }
 .footer-contact {

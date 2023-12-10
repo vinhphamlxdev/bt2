@@ -113,3 +113,4 @@ let popularHtmlContent = renderList(popularData, renderPopularItem);
 poplarList.innerHTML = popularHtmlContent;
 let hotelHtmlContent = renderList(hotelArr, renderHotelItem);
 hotelList.innerHTML = hotelHtmlContent;
+// set value heade when scroll up, down
