@@ -46,7 +46,10 @@ body {
   line-height: 1;
   font-family: "Poppins", sans-serif;
   background-color: #fff;
-  height: 50000px;
+}
+.wrapper-layout {
+  max-width: 1300px;
+  margin: auto;
 }
 .grid-layout {
   display: grid;
@@ -73,10 +76,6 @@ body {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
-.wrapper-layout {
-  max-width: 1200px;
-  margin: auto;
-}
 .session-padding {
   padding: 120px 0;
 }
@@ -98,7 +97,10 @@ body {
 }
 .home-banner {
   height: 824px;
-  background: url(./assets/bg-image.png), lightgray 50% / cover no-repeat;
+  background: url(./assets/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -272,6 +274,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     color: var(--theme-body);
+    white-space: nowrap;
   }
 }
 .search-btn {
@@ -596,12 +599,11 @@ body {
 
 .contact-email {
   display: flex;
-  height: 72px;
   padding: 8px;
   align-items: center;
   gap: 8px;
   border-radius: 12px;
-  background: #ccc;
+  background: #fff;
   & .email-icon {
     flex-shrink: 0;
     img {
@@ -619,7 +621,7 @@ body {
   }
   & .email-addres p {
     color: var(--theme-body, #161414);
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -627,7 +629,7 @@ body {
 }
 .contact-btn {
   display: flex;
-  padding: 24px;
+  padding: 18px;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
@@ -637,4 +639,7 @@ body {
     width: 24px;
     height: 24px;
   }
+}
+.footer-session {
+  background-color: #f9f9f9;
 }
