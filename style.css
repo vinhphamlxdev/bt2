@@ -25,6 +25,7 @@ svg,
 video {
   display: block;
   max-width: 100%;
+  cursor: pointer;
 }
 
 input,
@@ -196,6 +197,7 @@ body {
   line-height: 20px;
   color: #fff;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .header-avatar {
@@ -215,6 +217,7 @@ body {
   line-height: 20px;
   opacity: 0.5;
   color: #fff;
+  cursor: pointer;
 }
 .header-avatar--content span:last-child {
   font-size: 14px;
@@ -223,6 +226,7 @@ body {
   line-height: 20px;
   text-transform: capitalize;
   color: #fff;
+  cursor: pointer;
 }
 
 .header-avatar--image {
@@ -236,6 +240,7 @@ body {
   border-radius: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  cursor: pointer;
   cursor: pointer;
 }
 
@@ -277,6 +282,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .home-search-layout {
@@ -338,6 +344,7 @@ body {
   height: 24px;
   flex-shrink: 0;
   color: #fff;
+  cursor: pointer;
 }
 
 .popular-item {

@@ -23,6 +23,7 @@ svg,
 video {
   display: block;
   max-width: 100%;
+  cursor: pointer;
 }
 input,
 select,
@@ -168,6 +169,7 @@ body {
   line-height: 20px;
   color: #fff;
   opacity: 0.7;
+  cursor: pointer;
 }
 .header-avatar {
   display: flex;
@@ -183,6 +185,7 @@ body {
     line-height: 20px;
     opacity: 0.5;
     color: #fff;
+    cursor: pointer;
   }
   & span:last-child {
     font-size: 14px;
@@ -191,6 +194,7 @@ body {
     line-height: 20px;
     text-transform: capitalize;
     color: #fff;
+    cursor: pointer;
   }
 }
 .header-avatar--image {
@@ -202,6 +206,7 @@ body {
     flex-shrink: 0;
     border-radius: 100%;
     object-fit: cover;
+    cursor: pointer;
     cursor: pointer;
   }
 }
@@ -239,6 +244,7 @@ body {
     height: 24px;
     object-fit: cover;
     flex-shrink: 0;
+    cursor: pointer;
   }
 }
 .home-search-layout {
@@ -295,6 +301,7 @@ body {
     height: 24px;
     flex-shrink: 0;
     color: #fff;
+    cursor: pointer;
   }
 }
 .popular-item {
