@@ -290,6 +290,7 @@ body {
   align-items: center;
   border-radius: 12px;
   background-color: white;
+  width: 1140px;
   padding: 8px;
 }
 
@@ -302,7 +303,7 @@ body {
   -moz-column-gap: 16px;
        column-gap: 16px;
   border-radius: 12px;
-  width: 250px;
+  width: 300px;
 }
 .home-search__item .search-item--icon {
   width: 24px;
@@ -310,6 +311,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
+}
+
+.home-search__item:nth-child(2),
+.home-search__item:nth-child(3),
+.home-search__item:nth-child(4) {
+  width: 254px;
 }
 
 .search-item--content {
@@ -722,4 +730,8 @@ body {
 
 .footer-session {
   background-color: #f9f9f9;
+}
+
+.header-logo {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

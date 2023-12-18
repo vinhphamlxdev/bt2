@@ -252,6 +252,7 @@ body {
   align-items: center;
   border-radius: 12px;
   background-color: white;
+  width: 1140px;
   padding: 8px;
 }
 .home-search__item {
@@ -262,14 +263,20 @@ body {
   flex-shrink: 0;
   column-gap: 16px;
   border-radius: 12px;
-  width: 250px;
+  width: 300px;
   .search-item--icon {
     width: 24px;
     height: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
   }
+}
+.home-search__item:nth-child(2),
+.home-search__item:nth-child(3),
+.home-search__item:nth-child(4) {
+  width: 254px;
 }
 .search-item--content {
   display: flex;
@@ -656,4 +663,7 @@ body {
 }
 .footer-session {
   background-color: #f9f9f9;
+}
+.header-logo {
+  display: flex;
 }
